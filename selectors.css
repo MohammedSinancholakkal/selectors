@@ -1,0 +1,49 @@
+/* universal selectors */
+*{
+    background-color: cyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* id selector */
+
+#head{
+    color: rgb(138, 43, 226);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+/* class selector */
+
+.para{
+    font-size: 20px;
+    color: crimson;
+    font-style: italic;
+
+}
+/* tag selector */
+p{
+    color: blue;
+    font-size: 20px;
+}
+/* grouping selector */
+
+ul,h1,h2{
+    color: blueviolet;
+    font-size: 30px;
+
+}
+/* psuedo class selector */
+#head:hover{
+    background-color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: crimson;
+}
+/* pseudo element selector */
+.para1::first-line{
+    color: black;
+    
+    font-style: italic;
+
+}
+
+ 
